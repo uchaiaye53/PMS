@@ -4,8 +4,7 @@ const Home = () => {
   console.log("home")
   return (
     <div>
-      
-      <Link to={`/form`}>Add veicle</Link>
+      <h1 className="text-4xl text-center"> <Link to={`/form`}>Go to Form page</Link></h1>       
     </div>
   )
 }
